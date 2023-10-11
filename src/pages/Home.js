@@ -187,7 +187,7 @@ const Home = () => {
         </div>
         <div className='brick-quote' data-aos="fade-right">"Building Dreams, One Brick at a Time"</div>
       </div>
-      <div className="parallax-item">
+      <div className="parallax-item1">
         <div className='about1' >
         <h2 className='about-title' data-aos="fade-up">ABOUT US</h2><br></br><br></br>
         <p className='about-intro' data-aos="fade-up">Direct Management Services LLC. was incorporated on February 2021 in New York to operate in the real estate industry as a property management company while also offering contracting services.</p>
@@ -199,49 +199,36 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="parallax-background2"> 
-      <div className="parallax-item">
-      <h2 className='services-title'>SERVICES</h2>
-        <ul className="scroll-list">           <li className="animate-scroll">
-             <div className="scroll-box">
-               <button className='service-button'><a href='/services'><h3>Property Management Services for Commercial and Residential Properties</h3></a></button>
-             </div>
-           </li>
-           <li className="animate-scroll">
-             <div className="scroll-box">
-             <button className='service-button'><a href='/services'><h3>Design and Installation of Security and Surveillance Systems for Commercial and Residential Properties</h3></a></button>
-             </div>
-           </li>
-           <li className="animate-scroll">
-             <div className="scroll-box">
-             <button className='service-button'><a href='/services'><h3>Design and Installation of Internet Network Cables</h3></a></button>
-             </div>
-           </li>
-           <li className="animate-scroll">
-             <div className="scroll-box">
-             <button className='service-button'><a href='/services'><h3>Design and Installation of Intercom Systems</h3></a></button>
-             </div>
-           </li>
-           <li className="animate-scroll">
-             <div className="scroll-box">
-             <button className='service-button'><a href='/services'><h3>Installation of Smart Lock Systems</h3></a></button>
-             </div>
-           </li>
-           <li className="animate-scroll">
-             <div className="scroll-box">
-             <button className='service-button'><a href='/services'><h3>General Contractor Services for Larger Renovation or Rehab Projects</h3></a></button>
-             </div>
-           </li>
-           <li className="animate-scroll">
-             <div className="scroll-box">
-            <button className='service-button'><a href='/services'><h3>Property Development Services (Remodeling)</h3></a></button>
-            </div>
-            
-          </li>
-        </ul>
-     
+
+<div className="parallax-background2">
+  <div className="parallax-item2">
+    <br></br><br></br><br></br><br></br>
+    <h2 className='services-title'>Our Services</h2>
+    <div className="services-grid">
+      <div className="service service1">
+        <i className="ti-bar-chart"></i>
+        <h4>Lorem Ipsum</h4>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#" className="cta">Read More <span className="ti-angle-right"></span></a>
       </div>
+
+      <div className="service service2">
+        <i className="ti-light-bulb"></i>
+        <h4>Lorem Ipsum</h4>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#" className="cta">Read More <span className="ti-angle-right"></span></a>
       </div>
+
+      <div className="service service3">
+        <i className="ti-money"></i>
+        <h4>Lorem Ipsum</h4>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#" className="cta">Read more <span className="ti-angle-right"></span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
       <div className="parallax-item">
         {/* Your projects section */}
       </div>
