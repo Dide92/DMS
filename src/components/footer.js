@@ -41,7 +41,7 @@ const Footer = () => {
         
         </div>
       </div>
-      <p className="footer-designer-ad">Designed by <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Dide Aydogan</a></p>
+      <p className="footer-designer-ad">Designed by <a href="https://portfolio-dide92.vercel.app/" target="_blank" rel="noopener noreferrer">Dide Aydogan</a></p>
     </footer>
   );
 };
