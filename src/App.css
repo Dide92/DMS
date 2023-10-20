@@ -121,29 +121,7 @@ h1{
   font-weight: 100;
  
 }
-/* .project-button{
-  opacity: 0.8;
-  height:40px;
-  width:500px;
-  position: relative;
-  top:25%;
-  left:30%;
-  color: #F1F6F9;
-  padding-top: 1%;
-  text-align: center;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-}
-.view-projects {
-  height:40px;
-  width:50px;
-  border-radius: 50%;
-  border:none;
-  color:#212A3e;
-  z-index: 1;
-  opacity:0.7;
-} */
+
 
 #section05 { background: url(https://picsum.photos/1200/800?image=1037) center center / cover no-repeat;}
 
@@ -485,10 +463,9 @@ ul {
 
 /* project page */
 
-/* 
+
 html {
   height: 100%;
-  overflow: hidden;
 }
 
 .project-page section {
@@ -498,7 +475,7 @@ html {
   transform-style: preserve-3d;
   transform-origin: center center;
   height: 100%;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   overflow-x: hidden;
   background: linear-gradient(#efecdb, #b0ab8f);
 }
@@ -559,10 +536,10 @@ html {
   .section-ten {
       transform: translateZ(-2.9px) translateX(65vw) translateY(270vh);
   }
-} */
+} 
 
 
-/* .project-header{
+.project-header{
     text-align: center;
     font-size: 24px;
     padding:4% 0 4% 5%;
@@ -596,6 +573,7 @@ html {
   height: 200px;
   object-fit: cover; 
   transition: transform 0.3s;
+  
 }
 
 .project-card:hover img {
@@ -610,7 +588,11 @@ html {
 .project-card p {
   margin-top: 10px;
   font-size: 14px;
-} */
+} 
+
+
+
+
 /* Testimonials.css */
 
 .testimonials {

@@ -61,6 +61,7 @@ const Projects = () => {
   ]);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const handleParallaxScroll = () => {
       const parallax = document.getElementById('parallax');
       let offset = window.pageYOffset;
@@ -83,7 +84,6 @@ const Projects = () => {
       )
     );
   };
-  window.scrollTo(0, 0);
 
   const handleMouseOut = () => {
     setProjects((prevProjects) =>

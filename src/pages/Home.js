@@ -49,13 +49,6 @@ const Home = () => {
     <h1 className='name'>DIRECT MANAGEMENT <span className='underline'>SERVICES LLC.</span></h1>
   </div>
   <div className='brick-quote' data-aos="fade-up">"Building Dreams, One Brick at a Time"</div>
-  <div className='project-button'>
-    <button className='view-projects'>
-      <a href="#section06">  <h6>Scroll Down Button #6</h6>
-  <a href="#section07"><span></span>Scroll</a>
-      </a>
-    </button>
-  </div>
 </div>
 
       <div className="parallax-item1">
