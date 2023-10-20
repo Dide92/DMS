@@ -6,58 +6,47 @@ const Projects = () => {
       id: 1,
       title: 'Project 1',
       description: 'Description of Project 1',
-      imageSrc: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
-      hoverImageSrc: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMzfHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
+      images: [
+        'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHxob3VzZSUyMGNvbnS0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
+        'https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMzfHxob3VzZSUyMGNvbnS0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
+        // Add more image URLs here
+      ],
+      currentIndex: 0,
     },
     {
       id: 2,
       title: 'Project 2',
       description: 'Description of Project 2',
-      imageSrc: 'https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYzfHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
-      hoverImageSrc: 'https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYyfHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
+      images: [
+        'https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYzfHxob3VzZSUyMGNvbnS0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto.format&fit=crop&w=800&q=60',
+        'https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYyfHxob3VzZSUyMGNvbnS0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
+        // Add more image URLs here
+      ],
+      currentIndex: 0,
     },
     {
-      id: 3,
-      title: 'Project 3',
-      description: 'Description of Project 3',
-      imageSrc: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
-      hoverImageSrc: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMzfHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
+      id: 1,
+      title: 'Project 1',
+      description: 'Description of Project 1',
+      images: [
+        'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHxob3VzZSUyMGNvbnS0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
+        'https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMzfHxob3VzZSUyMGNvbnS0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
+        // Add more image URLs here
+      ],
+      currentIndex: 0,
     },
     {
-      id: 4,
-      title: 'Project 4',
-      description: 'Description of Project 4',
-      imageSrc: 'https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYzfHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
-      hoverImageSrc: 'https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYyfHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
+      id: 2,
+      title: 'Project 2',
+      description: 'Description of Project 2',
+      images: [
+        'https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYzfHxob3VzZSUyMGNvbnS0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto.format&fit=crop&w=800&q=60',
+        'https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYyfHxob3VzZSUyMGNvbnS0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
+        // Add more image URLs here
+      ],
+      currentIndex: 0,
     },
-    {
-      id: 5,
-      title: 'Project 5',
-      description: 'Description of Project 5',
-      imageSrc: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
-      hoverImageSrc: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMzfHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
-    },
-    {
-      id: 6,
-      title: 'Project 6',
-      description: 'Description of Project 6',
-      imageSrc: 'https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYzfHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
-      hoverImageSrc: 'https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYyfHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
-    },
-    {
-      id: 7,
-      title: 'Project 7',
-      description: 'Description of Project 7',
-      imageSrc: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
-      hoverImageSrc: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMzfHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
-    },
-    {
-      id: 8,
-      title: 'Project 8',
-      description: 'Description of Project 8',
-      imageSrc: 'https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYzfHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
-      hoverImageSrc: 'https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYyfHxob3VzZSUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
-    },
+    // Add more project objects here
   ]);
 
   useEffect(() => {
@@ -75,52 +64,85 @@ const Projects = () => {
     };
   }, []);
 
-  const handleMouseOver = (id) => {
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setProjects((prevProjects) =>
+        prevProjects.map((project) => {
+          const newIndex = (project.currentIndex + 1) % project.images.length;
+          return { ...project, currentIndex: newIndex };
+        })
+      );
+    }, 5000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
+
+
+  const handleDotClick = (project, index) => {
     setProjects((prevProjects) =>
-      prevProjects.map((project) =>
-        project.id === id
-          ? { ...project, isHovered: true }
-          : { ...project, isHovered: false }
+      prevProjects.map((p) =>
+        p.id === project.id ? { ...p, currentIndex: index } : p
       )
     );
   };
 
-  const handleMouseOut = () => {
-    setProjects((prevProjects) =>
-      prevProjects.map((project) => ({ ...project, isHovered: false }))
-    );
-  };
-
   return (
-    <section className='section1'>
+    <section className="section1">
       <div id="parallax">
-        <div className="about-img1"></div>
+        {/* <div className="about-img1"></div> */}
       </div>
       <div>
         <h2 className="project-header">Projects</h2>
       </div>
-      <div className="project-grid">
-        {projects.map((project) => (
-          <div
-            className="project-card"
-            key={project.id}
-            onMouseOver={() => handleMouseOver(project.id)}
-            onMouseOut={handleMouseOut}
-          >
-            <img
-              src={project.isHovered ? project.hoverImageSrc : project.imageSrc}
-              alt={project.title}
-            />
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-          </div>
-        ))}
+      <div className="project-grid-container">
+        <div className="project-grid">
+          {projects.map((project, index) => (
+            <div
+              className="project-card"
+              key={project.id}
+              style={{ gridColumn: `span ${index % 3 === 0 ? 2 : 1}` }}
+            >
+              <div className="project-content">
+                <div className="project-image">
+                  <img
+                    src={project.images[project.currentIndex]}
+                    alt={project.title}
+                  />
+                </div>
+                <div className="project-details">
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+               <div className="dot-container">
+          {projects.map((project) => (
+            <div key={project.id} className="dots">
+              {project.images.map((image, index) => (
+                <span
+                  key={index}
+                  className={`dot ${
+                    index === project.currentIndex ? 'active' : ''
+                  }`}
+                  onClick={() => handleDotClick(project, index)}
+                ></span>
+              ))}
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
 };
 
 export default Projects;
+
+
 
 // import React from 'react';
 

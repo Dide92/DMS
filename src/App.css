@@ -464,10 +464,7 @@ ul {
 /* project page */
 
 
-html {
-  height: 100%;
-}
-
+/* 
 .project-page section {
   margin: 0;
   padding: 0;
@@ -475,7 +472,6 @@ html {
   transform-style: preserve-3d;
   transform-origin: center center;
   height: 100%;
-  /* overflow-y: scroll; */
   overflow-x: hidden;
   background: linear-gradient(#efecdb, #b0ab8f);
 }
@@ -555,15 +551,34 @@ html {
 }
 
 .project-card {
+  display: flex;
   background-color: #fff;
   padding: 20px;
-  border: 1px solid #ccc;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.project-card:hover {
+
+
+.project-card .project-content {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 80%;
+}
+
+.project-card .project-image {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.project-card .project-details {
+  flex: 1;
+  padding: 0 20px;
+  text-align: right;
+}
+
+ .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
@@ -581,17 +596,78 @@ html {
 }
 
 .project-card h3 {
-  margin-top: 10px;
   font-size: 18px;
 }
 
 .project-card p {
-  margin-top: 10px;
   font-size: 14px;
 } 
 
+.project-card:nth-child(even) .project-image {
+  order: 2;
+}
+
+.project-card:nth-child(even) .project-details {
+  order: 1;
+}
+ */
 
 
+.project-card {
+  width: 100%;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card .project-content {
+  display: flex;
+  width: 100%;
+}
+
+.project-card .project-image,
+.project-card .project-details {
+  flex: 1;
+}
+
+.project-card .project-image img {
+  width: 90%;
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+.project-card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.project-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.project-card:nth-child(even) .project-content {
+  flex-direction: row-reverse;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.1);
+}
+
+/* Optional: Add a responsive grid layout for smaller screens */
+@media (max-width: 768px) {
+  .project-card {
+    grid-column: span 2;
+  }
+}
 
 /* Testimonials.css */
 
