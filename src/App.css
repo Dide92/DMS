@@ -693,7 +693,7 @@ footer{
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 4% auto;
 }
 
 
@@ -735,13 +735,14 @@ footer{
 }
 
 .line__separate {
-  margin-top: 5px;
-  width: 100%;
   height: 2px;
   background-color: #fff;
-  z-index: 999;
+  display: flex;
+  justify-content: center;
 }
-
+.copyright {
+  text-align: center;
+}
 .by {
   margin-top: 15px;
   justify-content: space-between;
@@ -758,6 +759,7 @@ footer{
   margin-top: 10px;
   display: flex;
   column-gap: 25px;
+  justify-content: center;
 }
 
 .icon1 {
@@ -779,9 +781,6 @@ footer{
   outline-offset: 4px;
 }
 
-/* .icon1:hover i {
-  animation: shake 0.25s;
-} */
 
 .icon--instagram:hover {
   background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -1061,7 +1060,7 @@ h3 {
   height: 40vh;
   overflow: hidden;
   text-align: center;
-  color: #9ba4b5;
+  color: #212a3e;
   padding: 4%;
   font-weight: 100;
 }
@@ -1082,6 +1081,8 @@ h3 {
   font-weight: 700;
   margin-top: -20px; 
   text-decoration: underline;
+  color: #557c79;
+
 }
 
 .contact-form {
@@ -1108,7 +1109,7 @@ textarea {
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #212a3e;
   border-radius: 5px;
   font-size: 16px;
 }

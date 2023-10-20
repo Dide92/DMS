@@ -3,9 +3,12 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="hero">
+            <div className="line__separate"></div>
+
       <div className="container flex">
         <div className="container__about">
-          <h2 className='footer-h2'>Address</h2>
+
+          {/* <h2 className='footer-h2'>Address</h2> */}
           <p>45-15 Barnett Ave</p>
           <p>Queens, NY 11104</p>
           <p>(917) 565 0623</p>
@@ -13,7 +16,7 @@ const Footer = () => {
         </div>
         <div className="container-pages flex">
           <div className="container__recentpages">
-            <h2 className='footer-h2'>Content</h2>
+            {/* <h2 className='footer-h2'>Content</h2> */}
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">About us</a></li>
@@ -27,7 +30,6 @@ const Footer = () => {
       </div>
       <div className="line__separate"></div>
       <div className="by flex">
-        <p>Copyright © 2022 All Rights Reserved by Direct Management Services LLC.</p>
         <div className="icons">
           <a href="#" className="icon1 icon--instagram">
             <i className="ri-instagram-line"></i>
@@ -42,6 +44,8 @@ const Footer = () => {
         </div>
       </div>
       <p className="footer-designer-ad">Designed by <a href="https://portfolio-dide92.vercel.app/" target="_blank" rel="noopener noreferrer">Dide Aydogan</a></p>
+      <p className='copyright'>Copyright © 2023 All Rights Reserved by Direct Management Services LLC.</p>
+
     </footer>
   );
 };

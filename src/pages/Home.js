@@ -114,7 +114,7 @@ const Home = () => {
       <div className="parallax-background4">
         <div className="parallax-item4">
           <h2 className="contact-title" data-aos="fade-up">
-            Get Free Quote
+            Get A Quote
           </h2>
           <form className="contact-form" data-aos="fade-up">
             <div className="form-group">
