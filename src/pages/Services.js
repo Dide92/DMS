@@ -42,6 +42,7 @@ const Services = () => {
       let offset = window.pageYOffset;
       parallax.style.backgroundPositionY = offset * 0.7 + "px";
     };
+    window.scrollTo(0, 0);
 
     window.addEventListener("scroll", handleParallaxScroll);
 
@@ -53,7 +54,7 @@ const Services = () => {
   const handleServiceHover = (index) => {
     setExpandedService(index);
   };
-  window.scrollTo(0, 0);
+
 
   const handleServiceBlur = () => {
     setExpandedService(null);

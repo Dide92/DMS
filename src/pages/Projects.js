@@ -90,12 +90,12 @@ const Projects = () => {
   };
 
   return (
-    <section className="section1">
+    <section className="projectsection1">
       <div id="parallax">
         {/* <div className="about-img1"></div> */}
       </div>
       <div>
-        <h2 className="project-header">Projects</h2>
+        <h2 className="project-header" >Discover Our Projects</h2>
       </div>
       <div className="project-grid-container">
         <div className="project-grid">

@@ -26,7 +26,6 @@ html {
   content: "";
   background-image: url('./images/parallax6.jpeg'); 
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
   position: absolute;
   top: 0;
@@ -203,7 +202,8 @@ h1{
 
 .read-more-button {
   position:relative;
-  left:20%;
+  left:21%;
+  top:-70px;
   text-align: center;
   background-color: #212A3e;
   border-radius: 4%;
@@ -230,10 +230,10 @@ h1{
 .services-title{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color:#f1f6f9;
-  font-size: 25px;
+  color:#212A3e;
+  font-size: 23px;
   letter-spacing: 1px;
-  font-weight:500;
+  font-weight:300;
   margin-top: -1%;
 }
 @media (max-width: 400px) {
@@ -264,7 +264,7 @@ h1{
   .services-title{
     position:relative;
     left:-12%;
-   
+
   }
   .projects-title{
     position:relative;
@@ -612,7 +612,23 @@ ul {
 }
  */
 
-
+ .projectsection1{
+  background-color:#394867;
+ }
+ .project-header{
+  font-size: 44px;
+  /* margin:50px 0px 0px 20px; */
+  padding:80px 0px 0px 0px;
+  font-weight: 100;
+  color:#F1F6F9;
+  height:100px;
+  display:flex;
+  justify-content:left ;
+  justify-items: center;
+  text-align: center;
+  /* background-color:#394867; */
+  border-radius: 0%;
+}
 .project-card {
   width: 100%;
   padding: 20px;
@@ -621,6 +637,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color:#F1F6F9;
 }
 
 .project-card .project-content {
@@ -639,14 +656,16 @@ ul {
   transition: transform 0.3s;
 }
 
-.project-card h2 {
-  font-size: 18px;
+.project-card h3 {
+  font-size: 28px;
   margin: 10px 0;
+  color:#212A3e;
 }
 
 .project-card p {
-  font-size: 14px;
+  font-size: 18px;
   margin: 5px 0;
+  color:#394867;
 }
 
 .project-card:nth-child(even) .project-content {
