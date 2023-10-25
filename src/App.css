@@ -205,9 +205,8 @@ h1{
   left:21%;
   top:-70px;
   text-align: center;
-  background-color: #212A3e;
   border-radius: 4%;
-  color: #ffffff;
+  color:#f1f6f9;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
@@ -215,7 +214,7 @@ h1{
 }
 
 .read-more-button:hover {
-  background-color: #3A4D76;
+  background-color: #212A3e;
 }
 
 .back-img {
@@ -1140,6 +1139,7 @@ h3 {
   color: #212a3e;
   padding: 4%;
   font-weight: 100;
+  padding-bottom: 5%;
 }
 
 .parallax-item4 {
@@ -1209,3 +1209,100 @@ textarea {
 .submit-button:hover {
   background-color: #0058a5;
 }
+
+
+/* Contact page */
+
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.parallax-section {
+  width: 100%;
+}
+
+
+.getquote{
+  width:100%;
+  margin:0;
+  padding:5%;
+  text-align: center;
+  color:#212A3e
+}
+
+.contact-info {
+  
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin: 5px 0;
+  color: #444;
+}
+
+.contact-form2 {
+  text-align: center;
+  width: 80%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px 30px 20px 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+} */
+
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* textarea {
+  height: 150px;
+} */
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Add more styles as needed to achieve your desired professional look */

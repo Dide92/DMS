@@ -29,7 +29,7 @@ const Home = () => {
     window.scrollTo(0, 0);
 
     AOS.init({
-      duration: 2000, 
+      duration: 1500, 
       easing: 'ease-in-out',
       once: true, 
     });
