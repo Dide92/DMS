@@ -19,21 +19,22 @@ html {
   text-align: center;
   font-size: 24px;
   padding: 100px;
-}
-
-
-.parallax-background::before {
-  content: "";
   background-image: url('./images/parallax6.jpeg'); 
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+
+}
+
+
+/* .parallax-background::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /* animation: zoomIn 2s; */
-}
+} */
 
 .parallax-background2 {
   background-image: url('./images/parallax7.jpeg'); 
@@ -347,9 +348,29 @@ h1{
 
 .about-img1 {
   height: 550px;
-  background: url("./images/services.jpeg");
+  background: url("./images/stairs.jpeg");
   background-size:cover;
   background-position:100%;
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+}
+.testimonials-img1 {
+  height: 550px;
+  background: url("./images/renovation.jpeg");
+  background-size:cover;
+  background-position: 90% 70%;
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+}
+.contact-img1 {
+  height: 550px;
+  background: url("./images/construction.jpeg");
+  background-size:cover;
+  background-position: 90% 70%;
+  background-attachment: fixed;
+
   background-repeat: no-repeat;
 }
 h2 {
@@ -382,8 +403,10 @@ h3 {
 }
 .services-img {
   height: 550px;
-  background: url("./images/services.jpeg");
+  background: url("./images/nyc.jpeg");
   background-size:cover;
+  background-attachment: fixed;
+
   background-position:100%;
   background-repeat: no-repeat;
 }
@@ -1231,8 +1254,16 @@ textarea {
   margin:0;
   padding:5%;
   text-align: center;
-  color:#212A3e
+  color:#212A3e;
 }
+.getquote2{
+  width:100%;
+  margin:0;
+  padding:5%;
+  text-align: center;
+  color:white;
+}
+
 
 .contact-info {
   
@@ -1262,7 +1293,8 @@ textarea {
   max-width: 500px;
   margin: 20px auto;
   padding: 20px 30px 20px 10px;
-  background-color: #f7f7f7;
+  background-color:#394867;
+
   border: 1px solid #ccc;
   border-radius: 5px;
 }

@@ -18,12 +18,12 @@ const Footer = () => {
           <div className="container__recentpages">
             {/* <h2 className='footer-h2'>Content</h2> */}
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Contact us</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About us</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/testimonials">Testimonials</a></li>
+              <li><a href="/contact">Contact us</a></li>
             </ul>
           </div>
         </div>

@@ -7,6 +7,7 @@ const Contact = () => {
       let offset = window.pageYOffset;
       parallax.style.backgroundPositionY = offset * 0.7 + "px";
     };
+    window.scrollTo(0, 0);
 
     window.addEventListener("scroll", handleParallaxScroll);
 
@@ -33,7 +34,7 @@ const Contact = () => {
   return (
     <section className='contact-container'>
       <div id="parallax" className='parallax-section'>
-        <div className='about-img1'></div>
+        <div className='contact-img1'></div>
       </div>
     
       <div className="contact-info">
@@ -47,7 +48,7 @@ const Contact = () => {
         </ul>
       </div>
       <div className='contact-form2'>
-        <h2 className='getquote'>Get A Quote</h2>
+        <h2 className='getquote2'>Get A Quote</h2>
         <form onSubmit={handleSubmit}>
           <div className='form-group'>
             <input

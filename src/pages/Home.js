@@ -55,7 +55,7 @@ const Home = () => {
         <div className='about1' >
         <h2 className='about-title' data-aos="fade-up">ABOUT US</h2><br></br><br></br>
         <p className='about-intro' data-aos="fade-up">Direct Management Services LLC. was incorporated on February 2021 in New York to operate in the real estate industry as a property management company while also offering contracting services.</p>
-        <a href="your-link-here" data-aos="fade-up" className='read-more-button' id='read-more-button'>Read More</a>
+        <a href="/about" data-aos="fade-up" className='read-more-button' id='read-more-button'>Read More</a>
         </div>
         <div className='div2'>
           <div className='back-img' data-aos="fade-right">
